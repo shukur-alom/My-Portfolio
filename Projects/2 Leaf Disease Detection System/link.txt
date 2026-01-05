@@ -1,0 +1,3 @@
+Github : https://github.com/shukur-alom/leaf-diseases-detect
+
+live demo : https://leaf-diseases-detect5.streamlit.app

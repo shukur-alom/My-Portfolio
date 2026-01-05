@@ -1,0 +1,11 @@
+
+OTTO DIY Robot
+OTTO DIY Robot
+Jun 2025 - Aug 2025Jun 2025 - Aug 2025
+Built an ESP32-based bipedal robot with Bluetooth control and autonomous behavior. The robot supports real-time remote commands via BLE and can also operate independently using obstacle detection and random motion logic.
+
+Implemented multiple movement modes including walking, turning, jumping, and predefined dance routines. Integrated ultrasonic sensors for obstacle avoidance, servo motors for precise motion control, and a buzzer for audio feedback. Designed the system to interrupt tasks instantly when new commands or obstacles are detected, ensuring safe and responsive behavior.
+
+Worked with Arduino and PlatformIO, structured the code modularly, and focused on real-time task handling, speed control, and hardware reliability.
+Built an ESP32-based bipedal robot with Bluetooth control and autonomous behavior. The robot supports real-time remote commands via BLE and can also operate independently using obstacle detection and random motion logic. Implemented multiple movement modes including walking, turning, jumping, and predefined dance routines. Integrated ultrasonic sensors for obstacle avoidance, servo motors for precise motion control, and a buzzer for audio feedback. Designed the system to interrupt tasks instantly when new commands or obstacles are detected, ensuring safe and responsive behavior. Worked with Arduino and PlatformIO, structured the code modularly, and focused on real-time task handling, speed control, and hardware reliability.
+Skills: ESP32 Microcontrollers · Robotics · BLE · Embedded Systems · Sensor Integration · Servo Control · C++
