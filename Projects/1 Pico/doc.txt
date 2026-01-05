@@ -1,0 +1,7 @@
+
+Pico – Interactive OLED Desk Companion with Pomodoro Timer
+Pico – Interactive OLED Desk Companion with Pomodoro Timer
+Sep 2025 - Dec 2025Sep 2025 - Dec 2025
+Pico is an interactive desk companion built with an ESP32-C3 and a 1.3 inch SH1106 OLED display. It responds to touch gestures with smooth animations, sound feedback, and contextual messages, creating a playful yet functional user experience. The device also includes a built-in Pomodoro timer with visual and audio cues to support focused work and break sessions. This project explores embedded UI design, touch-based interaction, and real-time state management on resource-constrained hardware.
+Pico is an interactive desk companion built with an ESP32-C3 and a 1.3 inch SH1106 OLED display. It responds to touch gestures with smooth animations, sound feedback, and contextual messages, creating a playful yet functional user experience. The device also includes a built-in Pomodoro timer with visual and audio cues to support focused work and break sessions. This project explores embedded UI design, touch-based interaction, and real-time state management on resource-constrained hardware.
+Skills: Embedded Systems · Arduino Programming · ESP32-C3 · C / C++ · OLED Display (SH1106) · I2C Communication · Touch Sensor Integration · State Machine Design · Real-Time Timers · Buzzer & Audio Feedback
