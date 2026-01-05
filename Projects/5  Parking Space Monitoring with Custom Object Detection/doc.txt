@@ -1,0 +1,32 @@
+
+Parking Space Monitoring with Custom Object Detection
+Parking Space Monitoring with Custom Object Detection
+Nov 2023 - Jan 2024Nov 2023 - Jan 2024
+Company logo
+Associated with DIU Data Science Club
+Associated with DIU Data Science Club
+Developed a Parking Space Monitoring System using a custom object detection model to automatically monitor parking spaces via video feeds. The system identifies vehicles in real time and overlays polygons on the feed to represent predefined parking spaces. By analyzing these polygons and detecting vehicle presence, the system calculates the number of occupied and free parking spaces efficiently.
+
+🔧 Technology Stack:
+1. Python 3.x
+2. Kawarizmi module for object detection and video processing (My Module)
+3. OpenCV for video feed manipulation
+
+
+📽 How It Works:
+1. The system processes the video feed from a file or live camera.
+2. Users interactively define parking spaces by clicking on the video feed, creating polygons that outline the spots.
+3. The system tracks vehicle occupancy in real time, providing live updates on available parking spaces.
+
+
+🎯 Key Features:
+1. Real-time vehicle detection and parking occupancy monitoring
+2. Customizable parking space definition through video feed interaction
+3. Adjustable thresholds for detection accuracy
+
+💡 Potential Applications:
+
+1. Smart parking solutions for commercial and residential complexes
+2. Urban planning and traffic management systems
+Developed a Parking Space Monitoring System using a custom object detection model to automatically monitor parking spaces via video feeds. The system identifies vehicles in real time and overlays polygons on the feed to represent predefined parking spaces. By analyzing these polygons and detecting vehicle presence, the system calculates the number of occupied and free parking spaces efficiently. 🔧 Technology Stack: 1. Python 3.x 2. Kawarizmi module for object detection and video processing (My Module) 3. OpenCV for video feed manipulation 📽 How It Works: 1. The system processes the video feed from a file or live camera. 2. Users interactively define parking spaces by clicking on the video feed, creating polygons that outline the spots. 3. The system tracks vehicle occupancy in real time, providing live updates on available parking spaces. 🎯 Key Features: 1. Real-time vehicle detection and parking occupancy monitoring 2. Customizable parking space definition through video feed interaction 3. Adjustable thresholds for detection accuracy 💡 Potential Applications: 1. Smart parking solutions for commercial and residential complexes 2. Urban planning and traffic management systems
+Skills: Computer Vision · Python (Programming Language) · OpenCV · Artificial Intelligence (AI) · Automation · Graphical User Interface (GUI) · TensorFlow
