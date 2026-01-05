@@ -1,0 +1,17 @@
+Nector Switch is a smart IoT-enabled electrical switch designed to simplify power control at home and office. The system allows users to control devices remotely through a dedicated mobile and web app, while also supporting manual operation. It combines hardware reliability with cloud connectivity and real-time monitoring, enabling automation based on schedules or usage patterns.
+
+The project integrates embedded systems, energy-efficient hardware design, and user-friendly software to deliver a seamless, safe, and scalable solution. By connecting everyday electrical devices to an intelligent system, Nector Switch helps users save energy, increase convenience, and modernize their spaces without complicated installations.
+
+Key Highlights:
+
+Remote control via mobile and web apps
+
+Real-time device monitoring
+
+Manual and automated operation modes
+
+Energy-efficient and safe hardware design
+
+Scalable for homes, offices, and small industries
+Nector Switch is a smart IoT-enabled electrical switch designed to simplify power control at home and office. The system allows users to control devices remotely through a dedicated mobile and web app, while also supporting manual operation. It combines hardware reliability with cloud connectivity and real-time monitoring, enabling automation based on schedules or usage patterns. The project integrates embedded systems, energy-efficient hardware design, and user-friendly software to deliver a seamless, safe, and scalable solution. By connecting everyday electrical devices to an intelligent system, Nector Switch helps users save energy, increase convenience, and modernize their spaces without complicated installations. Key Highlights: Remote control via mobile and web apps Real-time device monitoring Manual and automated operation modes Energy-efficient and safe hardware design Scalable for homes, offices, and small industries
+Skills: Internet of Things (IoT) · Embedded Systems · Microcontroller Programming (ESP32 / ESP8266) · Circuit Design & Testing · Hardware Prototyping · Cloud Connectivity · REST APIs · Real-Time Data Monitoring · Power Management · Firmware Development
