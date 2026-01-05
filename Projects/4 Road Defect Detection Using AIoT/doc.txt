@@ -1,0 +1,27 @@
+
+Road Defect Detection Using AIoT
+Road Defect Detection Using AIoT
+Jul 2024 - Sep 2024Jul 2024 - Sep 2024
+This project integrates AIoT technologies to create an intelligent system for detecting road defects in real-time. By equipping a car with GPS and MPU9250 sensors, and controlling it via a mobile app, the system gathers real-time data, which is processed using a machine learning model. When defects are detected, the system sends alerts to both a mobile and web application, while logging defect data and location for future analysis.
+
+Key features:
+1. Real-time road defect detection using AI and sensor data
+2. GPS and sensor-based data collection with mobile app control
+3. Alerts sent via mobile and web applications for immediate action
+4. Logs of defect data for future investigation and maintenance planning
+
+
+Technology Stack:
+1. AIoT (Artificial Intelligence of Things)
+2. GPS, MPU9250 sensors, ESP32, Motor Driver, Wheel
+3. Python, MQTT protocol, C++
+4. Mobile app, web application integration
+
+Key Contributions:
+1. Developed the defect detection algorithm using machine learning models
+2. Built a real-time alert system for road defect notifications
+3. Integrated sensor data transmission and mobile app control
+
+This project showcases the potential for AI and IoT integration in smart infrastructure and maintenance systems.
+This project integrates AIoT technologies to create an intelligent system for detecting road defects in real-time. By equipping a car with GPS and MPU9250 sensors, and controlling it via a mobile app, the system gathers real-time data, which is processed using a machine learning model. When defects are detected, the system sends alerts to both a mobile and web application, while logging defect data and location for future analysis. Key features: 1. Real-time road defect detection using AI and sensor data 2. GPS and sensor-based data collection with mobile app control 3. Alerts sent via mobile and web applications for immediate action 4. Logs of defect data for future investigation and maintenance planning Technology Stack: 1. AIoT (Artificial Intelligence of Things) 2. GPS, MPU9250 sensors, ESP32, Motor Driver, Wheel 3. Python, MQTT protocol, C++ 4. Mobile app, web application integration Key Contributions: 1. Developed the defect detection algorithm using machine learning models 2. Built a real-time alert system for road defect notifications 3. Integrated sensor data transmission and mobile app control This project showcases the potential for AI and IoT integration in smart infrastructure and maintenance systems.
+Skills: Artificial Intelligence (AI) · AIot · Mqtt · Python (Programming Language) · C++ · ESP32 Microcontrollers · Sensors · Global Positioning System (GPS) · Machine Learning
