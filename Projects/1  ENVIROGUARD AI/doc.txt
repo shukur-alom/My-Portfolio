@@ -1,0 +1,9 @@
+
+ENVIROGUARD AI
+ENVIROGUARD AI
+Feb 2025 - Mar 2025Feb 2025 - Mar 2025
+We’ve developed a cutting-edge smart monitoring system that brings real-time environmental insights directly to your fingertips. Using a combination of IoT and AI, the system collects and analyses environmental data—such as pH level, TDS, temperature, humidity, air pressure, and wind speed—and streams the information straight to your smartphone or laptop, from anywhere in the world.
+What sets this system apart is its built-in AI anomaly detection. If any environmental condition goes beyond safe or expected levels—or if a sensor malfunctions—our AI triggers an instant alert, keeping users informed, protected, and ahead of potential risks.
+This solution is not only ideal for smart homes, but also for agriculture, aquaculture, and industrial use cases.
+We’ve developed a cutting-edge smart monitoring system that brings real-time environmental insights directly to your fingertips. Using a combination of IoT and AI, the system collects and analyses environmental data—such as pH level, TDS, temperature, humidity, air pressure, and wind speed—and streams the information straight to your smartphone or laptop, from anywhere in the world. What sets this system apart is its built-in AI anomaly detection. If any environmental condition goes beyond safe or expected levels—or if a sensor malfunctions—our AI triggers an instant alert, keeping users informed, protected, and ahead of potential risks. This solution is not only ideal for smart homes, but also for agriculture, aquaculture, and industrial use cases.
+Skills: Artificial Intelligence (AI) · Internet of Things (IoT) · Mqtt · Sensory Integration
