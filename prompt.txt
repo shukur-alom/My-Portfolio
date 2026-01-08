@@ -6,3 +6,7 @@ this is my Honors & awards  "Honors & awards" make award sort using date
 this is my cv "Shukur alam cv.pdf"
 
 this is my png imahe "Untitled design (10).png"
+
+Linkedin : "https://www.linkedin.com/in/shukur-alam"
+Github : "https://github.com/shukur-alom"
+Facebook: "https://www.facebook.com/shukur533"
