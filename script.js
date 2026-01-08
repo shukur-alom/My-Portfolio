@@ -336,7 +336,7 @@ function loadProjects() {
         projectCard.className = 'project-card';
 
         // Find first image in media array for thumbnail
-        const firstImage = project.media && project.media.length > 0 
+        const firstImage = project.media && project.media.length > 0
             ? project.media.find(item => item.type === 'image')
             : null;
 
