@@ -379,11 +379,11 @@ function openMediaGallery(itemIndex, type) {
     const item = type === 'project' ? projectsData[itemIndex] : awardsData[itemIndex];
     currentGallery = item.media;
     currentMediaIndex = 0;
-    
+
     const modal = document.getElementById('mediaModal');
     modal.style.display = 'flex';
     document.body.style.overflow = 'hidden';
-    
+
     showMedia(0);
     loadThumbnails();
 }
@@ -394,7 +394,7 @@ function showMedia(index) {
     const modalImage = document.getElementById('modalImage');
     const modalVideo = document.getElementById('modalVideo');
     const caption = document.getElementById('modalCaption');
-    
+
     if (media.type === 'image') {
         modalImage.src = media.src;
         modalImage.style.display = 'block';
@@ -405,7 +405,7 @@ function showMedia(index) {
         modalVideo.style.display = 'block';
         modalImage.style.display = 'none';
     }
-    
+
     caption.textContent = `${index + 1} / ${currentGallery.length}`;
     updateThumbnailSelection();
 }
@@ -413,18 +413,18 @@ function showMedia(index) {
 function loadThumbnails() {
     const container = document.getElementById('modalThumbnails');
     container.innerHTML = '';
-    
+
     currentGallery.forEach((media, index) => {
         const thumb = document.createElement('div');
         thumb.className = 'thumbnail';
         if (index === 0) thumb.classList.add('active');
-        
+
         if (media.type === 'image') {
             thumb.innerHTML = `<img src="${media.src}" alt="Thumbnail ${index + 1}">`;
         } else {
             thumb.innerHTML = `<i class="fas fa-play-circle"></i>`;
         }
-        
+
         thumb.onclick = () => showMedia(index);
         container.appendChild(thumb);
     });
@@ -463,17 +463,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const closeBtn = document.querySelector('.modal-close');
     const prevBtn = document.querySelector('.modal-prev');
     const nextBtn = document.querySelector('.modal-next');
-    
+
     closeBtn.onclick = closeModal;
     prevBtn.onclick = prevMedia;
     nextBtn.onclick = nextMedia;
-    
+
     window.onclick = (event) => {
         if (event.target === modal) {
             closeModal();
         }
     };
-    
+
     document.addEventListener('keydown', (e) => {
         if (modal.style.display === 'flex') {
             if (e.key === 'Escape') closeModal();
