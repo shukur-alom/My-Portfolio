@@ -1,0 +1,13 @@
+
+weather.AI
+weather.AI
+Apr 2023 - May 2023Apr 2023 - May 2023
+first the IoT device sends data to the central server then the central server sends data to the computer
+and mobile app. The computer predicts data by artificial intelligence and sends data to the central
+server and sends predicted data to the mobile app using the central server. At the same time, our
+website was updated with predicted data. Here I used the MQTT protocol. for prediction, I used linear
+regression algorithm and python.
+IoT Device : For IoT, I used ESP32. Sensors I used MQ-2, MQ-7, Mq135 and DHT 22. At first, I stored
+Data in CSV format and then train our intelligence model to predict future data.
+first the IoT device sends data to the central server then the central server sends data to the computer and mobile app. The computer predicts data by artificial intelligence and sends data to the central server and sends predicted data to the mobile app using the central server. At the same time, our website was updated with predicted data. Here I used the MQTT protocol. for prediction, I used linear regression algorithm and python. IoT Device : For IoT, I used ESP32. Sensors I used MQ-2, MQ-7, Mq135 and DHT 22. At first, I stored Data in CSV format and then train our intelligence model to predict future data.
+Skills: Sensors · Internet of Things (IoT) · Artificial Intelligence (AI) · ESP32 Microcontrollers · Mqtt · Machine Learning · AIot
