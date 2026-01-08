@@ -1,0 +1,7 @@
+
+Real-Time Vehicle Access Control System
+Real-Time Vehicle Access Control System
+Oct 2023 - Nov 2023Oct 2023 - Nov 2023
+Our real-time car number plate recognition system represents a significant advancement in the field of security and surveillance. By harnessing the power of computer vision and data analytics, we've created a solution that not only addresses the challenges of entry/exit management but also unlocks new opportunities for operational efficiency and strategic decision-making.
+Our real-time car number plate recognition system represents a significant advancement in the field of security and surveillance. By harnessing the power of computer vision and data analytics, we've created a solution that not only addresses the challenges of entry/exit management but also unlocks new opportunities for operational efficiency and strategic decision-making.
+Skills: Computer Vision · Python (Programming Language) · Artificial Intelligence (AI) · YOLO
