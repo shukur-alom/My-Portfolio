@@ -39,17 +39,6 @@ const projectsData = [
         ]
     },
     {
-        title: "ENVIROGUARD AI",
-        date: "Feb 2025 - Mar 2025",
-        description: "Smart monitoring system with real-time environmental insights using IoT and AI. Features built-in AI anomaly detection for pH, TDS, temperature, humidity, air pressure, and wind speed.",
-        skills: ["AI", "IoT", "MQTT", "Sensory Integration"],
-        link: "https://github.com/shukur-alom/Water-Monitoring",
-        media: [
-            { type: "image", src: "Projects/4  ENVIROGUARD AI/Media/1752264239624.jfif" },
-            { type: "image", src: "Projects/4  ENVIROGUARD AI/Media/1752264279083.jfif" }
-        ]
-    },
-    {
         title: "CardioCare-AI",
         date: "Nov 2024 - Jan 2025",
         description: "Innovative solution to monitor heart rate and oxygen levels using IoT device and AI module with mobile app integration.",
@@ -70,6 +59,17 @@ const projectsData = [
             { type: "image", src: "Projects/3 OTTO DIY Robot/Media/WhatsApp Image 2026-01-05 at 11.12.16 PM.jpeg" },
             { type: "image", src: "Projects/3 OTTO DIY Robot/Media/FAouT_eXIAIrX_I.jpg" },
             { type: "image", src: "Projects/3 OTTO DIY Robot/Media/24_b92a2667-4750-407b-9b63-ece562e02c1e_800x.webp" }
+        ]
+    },
+    {
+        title: "ENVIROGUARD AI",
+        date: "Feb 2025 - Mar 2025",
+        description: "Smart monitoring system with real-time environmental insights using IoT and AI. Features built-in AI anomaly detection for pH, TDS, temperature, humidity, air pressure, and wind speed.",
+        skills: ["AI", "IoT", "MQTT", "Sensory Integration"],
+        link: "https://github.com/shukur-alom/Water-Monitoring",
+        media: [
+            { type: "image", src: "Projects/4  ENVIROGUARD AI/Media/1752264239624.jfif" },
+            { type: "image", src: "Projects/4  ENVIROGUARD AI/Media/1752264279083.jfif" }
         ]
     },
     {
@@ -130,6 +130,7 @@ const projectsData = [
         description: "IoT-based weather monitoring system with AI prediction using ESP32, multiple gas sensors (MQ-2, MQ-7, MQ135), and DHT22. Uses linear regression for data prediction with MQTT protocol.",
         skills: ["Sensors", "IoT", "AI", "ESP32", "MQTT", "Machine Learning", "AIoT"],
         media: [
+            { type: "image", src: "Projects/11  weather.AI/Media/noaa-Led9c1SSNFo-unsplash.jpg" },
             { type: "video", src: "Projects/11  weather.AI/Media/Video Project.mp4" }
         ]
     },
@@ -399,20 +400,31 @@ function loadProjects(showAll = false) {
         container.appendChild(projectCard);
     });
 
-    // Add or remove "Show More" button
+    // Add or update "Show More/Less" button
     let showMoreBtn = document.getElementById('showMoreProjectsBtn');
 
-    if (!showAll && projectsData.length > 3) {
+    if (projectsData.length > 3) {
         if (!showMoreBtn) {
             showMoreBtn = document.createElement('button');
             showMoreBtn.id = 'showMoreProjectsBtn';
             showMoreBtn.className = 'show-more-btn';
+            container.parentElement.appendChild(showMoreBtn);
+        }
+
+        if (!showAll) {
             showMoreBtn.innerHTML = '<i class="fas fa-chevron-down"></i> Show More Projects';
             showMoreBtn.onclick = () => {
                 showingAllProjects = true;
                 loadProjects(true);
             };
-            container.parentElement.appendChild(showMoreBtn);
+        } else {
+            showMoreBtn.innerHTML = '<i class="fas fa-chevron-up"></i> Show Less Projects';
+            showMoreBtn.onclick = () => {
+                showingAllProjects = false;
+                loadProjects(false);
+                // Scroll to projects section
+                document.getElementById('projects').scrollIntoView({ behavior: 'smooth', block: 'start' });
+            };
         }
     } else if (showMoreBtn) {
         showMoreBtn.remove();
@@ -455,20 +467,31 @@ function loadAwards(showAll = false) {
         container.appendChild(awardItem);
     });
 
-    // Add or remove "Show More" button
+    // Add or update "Show More/Less" button
     let showMoreBtn = document.getElementById('showMoreAwardsBtn');
-    
-    if (!showAll && awardsData.length > 3) {
+
+    if (awardsData.length > 3) {
         if (!showMoreBtn) {
             showMoreBtn = document.createElement('button');
             showMoreBtn.id = 'showMoreAwardsBtn';
             showMoreBtn.className = 'show-more-btn';
+            container.parentElement.appendChild(showMoreBtn);
+        }
+
+        if (!showAll) {
             showMoreBtn.innerHTML = '<i class="fas fa-chevron-down"></i> Show More Awards';
             showMoreBtn.onclick = () => {
                 showingAllAwards = true;
                 loadAwards(true);
             };
-            container.parentElement.appendChild(showMoreBtn);
+        } else {
+            showMoreBtn.innerHTML = '<i class="fas fa-chevron-up"></i> Show Less Awards';
+            showMoreBtn.onclick = () => {
+                showingAllAwards = false;
+                loadAwards(false);
+                // Scroll to awards section
+                document.getElementById('awards').scrollIntoView({ behavior: 'smooth', block: 'start' });
+            };
         }
     } else if (showMoreBtn) {
         showMoreBtn.remove();
