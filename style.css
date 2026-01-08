@@ -469,17 +469,37 @@ justify-content: center;
     color: var(--primary-color);
 }
 
-.project-link {
-    display: inline-block;
+.project-links {
+    display: flex;
+    gap: 1rem;
     margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.2), rgba(255, 107, 107, 0.2));
+    border: 1px solid rgba(99, 102, 241, 0.3);
+    border-radius: 20px;
     color: var(--primary-color);
     text-decoration: none;
     font-weight: 600;
-    transition: color 0.3s ease;
+    font-size: 0.85rem;
+    transition: all 0.3s ease;
 }
 
 .project-link:hover {
-    color: var(--accent-color);
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.3), rgba(255, 107, 107, 0.3));
+    border-color: var(--primary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+}
+
+.project-link i {
+    font-size: 1rem;
 }
 
 /* Awards Section */
@@ -698,6 +718,36 @@ justify-content: center;
 .view-media-btn:hover {
     transform: translateY(-2px);
     box-shadow: 0 10px 20px rgba(99, 102, 241, 0.3);
+}
+
+/* Show More Button */
+.show-more-btn {
+    display: block;
+    margin: 3rem auto 0;
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #ffffff;
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+}
+
+.show-more-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 25px rgba(255, 107, 107, 0.5);
+}
+
+.show-more-btn i {
+    margin-right: 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+.show-more-btn:hover i {
+    transform: translateY(3px);
 }
 
 .award-associated {

@@ -20,6 +20,7 @@ const projectsData = [
         date: "2025",
         description: "Smart IoT-enabled electrical switch for remote power control via mobile and web apps with real-time monitoring and automation.",
         skills: ["IoT", "Embedded Systems", "ESP32", "Circuit Design", "Cloud Connectivity", "REST APIs"],
+        link: "https://nectorit.com",
         media: [
             { type: "image", src: "Projects/0 Nector Smart Switch/Media/Nector Final.png" },
             { type: "image", src: "Projects/0 Nector Smart Switch/Media/Nector Final (1).png" },
@@ -38,6 +39,29 @@ const projectsData = [
         ]
     },
     {
+        title: "ENVIROGUARD AI",
+        date: "Feb 2025 - Mar 2025",
+        description: "Smart monitoring system with real-time environmental insights using IoT and AI. Features built-in AI anomaly detection for pH, TDS, temperature, humidity, air pressure, and wind speed.",
+        skills: ["AI", "IoT", "MQTT", "Sensory Integration"],
+        link: "https://github.com/shukur-alom/Water-Monitoring",
+        media: [
+            { type: "image", src: "Projects/4  ENVIROGUARD AI/Media/1752264239624.jfif" },
+            { type: "image", src: "Projects/4  ENVIROGUARD AI/Media/1752264279083.jfif" }
+        ]
+    },
+    {
+        title: "CardioCare-AI",
+        date: "Nov 2024 - Jan 2025",
+        description: "Innovative solution to monitor heart rate and oxygen levels using IoT device and AI module with mobile app integration.",
+        skills: ["AIoT", "AI", "IoT", "Machine Learning", "Mobile Apps", "API Development"],
+        link: "https://github.com/shukur-alom/CardioCare-AI",
+        media: [
+            { type: "image", src: "Projects/5  CardioCare-AI/Media/CardioCareAi (1)_page-0008 (1).jpg" },
+            { type: "image", src: "Projects/5  CardioCare-AI/Media/CardioCareAi (1)_page-0009 (1).jpg" },
+            { type: "image", src: "Projects/5  CardioCare-AI/Media/CardioCareAi (1)_page-0010 (1).jpg" }
+        ]
+    },
+    {
         title: "OTTO DIY Robot",
         date: "Jun 2025 - Aug 2025",
         description: "ESP32-based bipedal robot with Bluetooth control, autonomous behavior, ultrasonic sensors, and predefined dance routines.",
@@ -49,31 +73,11 @@ const projectsData = [
         ]
     },
     {
-        title: "ENVIROGUARD AI",
-        date: "Feb 2025 - Mar 2025",
-        description: "Smart monitoring system with real-time environmental insights using IoT and AI. Features built-in AI anomaly detection for pH, TDS, temperature, humidity, air pressure, and wind speed.",
-        skills: ["AI", "IoT", "MQTT", "Sensory Integration"],
-        media: [
-            { type: "image", src: "Projects/4  ENVIROGUARD AI/Media/1752264239624.jfif" },
-            { type: "image", src: "Projects/4  ENVIROGUARD AI/Media/1752264279083.jfif" }
-        ]
-    },
-    {
-        title: "CardioCare-AI",
-        date: "Nov 2024 - Jan 2025",
-        description: "Innovative solution to monitor heart rate and oxygen levels using IoT device and AI module with mobile app integration.",
-        skills: ["AIoT", "AI", "IoT", "Machine Learning", "Mobile Apps", "API Development"],
-        media: [
-            { type: "image", src: "Projects/5  CardioCare-AI/Media/CardioCareAi (1)_page-0008 (1).jpg" },
-            { type: "image", src: "Projects/5  CardioCare-AI/Media/CardioCareAi (1)_page-0009 (1).jpg" },
-            { type: "image", src: "Projects/5  CardioCare-AI/Media/CardioCareAi (1)_page-0010 (1).jpg" }
-        ]
-    },
-    {
         title: "BUSTRAX VISION",
         date: "Sep 2024 - Nov 2024",
         description: "All-encompassing transportation management solution integrating IoT devices with web and mobile apps for real-time vehicle tracking.",
         skills: ["IoT", "Web App", "Mobile Apps", "MQTT", "GPS", "Python", "C++", "ESP32", "Flutter"],
+        link: "https://github.com/shukur-alom/BUSTRAX-VISION",
         media: [
             { type: "image", src: "Projects/7 BUSTRAX VISION/Media/CODE 8_page-0007.jpg" },
             { type: "image", src: "Projects/7 BUSTRAX VISION/Media/CODE 8_page-0008.jpg" },
@@ -95,6 +99,7 @@ const projectsData = [
         date: "Nov 2023 - Jan 2024",
         description: "Custom object detection system to automatically monitor parking spaces via video feeds with real-time vehicle detection.",
         skills: ["Computer Vision", "Python", "OpenCV", "AI", "TensorFlow"],
+        link: "https://github.com/shukur-alom/parking-counter",
         media: [
             { type: "image", src: "Projects/8  Parking Space Monitoring with Custom Object Detection/Media/system view (1).png" },
             { type: "video", src: "Projects/8  Parking Space Monitoring with Custom Object Detection/Media/SnapSave_App_2226792214379847_1080p.mp4" }
@@ -106,6 +111,7 @@ const projectsData = [
         description: "Real-time car number plate recognition system for entry/exit management using computer vision and data analytics.",
         skills: ["Computer Vision", "Python", "AI", "YOLO"],
         media: [
+            { type: "image", src: "Projects/12  Real-Time Vehicle Access Control System/Media/Screenshot 2026-01-09 015700.png" },
             { type: "video", src: "Projects/12  Real-Time Vehicle Access Control System/Media/snapsave-app_2140753189650417_hd.mp4" }
         ]
     },
@@ -119,11 +125,21 @@ const projectsData = [
         ]
     },
     {
+        title: "weather.AI",
+        date: "Apr 2023 - May 2023",
+        description: "IoT-based weather monitoring system with AI prediction using ESP32, multiple gas sensors (MQ-2, MQ-7, MQ135), and DHT22. Uses linear regression for data prediction with MQTT protocol.",
+        skills: ["Sensors", "IoT", "AI", "ESP32", "MQTT", "Machine Learning", "AIoT"],
+        media: [
+            { type: "video", src: "Projects/11  weather.AI/Media/Video Project.mp4" }
+        ]
+    },
+    {
         title: "Enviro - Smart Dustbin",
         date: "Jun 2022",
         description: "Revolutionary smart dustbin with real-time fill level monitoring, GPS tracking, and automatic alerts for waste management.",
         skills: ["Sensors", "IoT", "GPS"],
         media: [
+            { type: "image", src: "Projects/10  Enviro/Media/leon-seibert-qSv_SchkS-o-unsplash.jpg" },
             { type: "video", src: "Projects/10  Enviro/Media/snapsave-app_1922761001449638_hd.mp4" }
         ]
     },
@@ -132,6 +148,8 @@ const projectsData = [
         date: "Oct 2021",
         description: "AI-powered plant health analysis project using computer vision and Llama Vision models for disease detection and treatment recommendations.",
         skills: ["Python", "Computer Vision", "Deep Learning", "AI"],
+        link: "https://github.com/shukur-alom/leaf-diseases-detect",
+        demoLink: "https://leaf-diseases-detect5.streamlit.app",
         media: [
             { type: "image", src: "Projects/2 Leaf Disease Detection System/Media/video (1).gif" }
         ]
@@ -328,10 +346,15 @@ const awardsData = [
 ];
 
 // Load Projects
-function loadProjects() {
-    const container = document.getElementById('projectsContainer');
+let showingAllProjects = false;
 
-    projectsData.forEach((project, index) => {
+function loadProjects(showAll = false) {
+    const container = document.getElementById('projectsContainer');
+    container.innerHTML = ''; // Clear existing projects
+
+    const projectsToShow = showAll ? projectsData : projectsData.slice(0, 3);
+
+    projectsToShow.forEach((project, index) => {
         const projectCard = document.createElement('div');
         projectCard.className = 'project-card';
 
@@ -345,9 +368,16 @@ function loadProjects() {
             : `<i class="fas fa-laptop-code"></i>`;
 
         const mediaButtonHTML = project.media && project.media.length > 0
-            ? `<button class="view-media-btn" onclick="openMediaGallery(${index}, 'project')">
+            ? `<button class="view-media-btn" onclick="openMediaGallery(${showAll ? index : projectsData.findIndex(p => p.title === project.title)}, 'project')">
                 <i class="fas fa-${project.media.some(m => m.type === 'video') ? 'photo-video' : 'images'}"></i> View Media (${project.media.length})
                </button>`
+            : '';
+
+        const linksHTML = project.link || project.demoLink
+            ? `<div class="project-links">
+                ${project.link ? `<a href="${project.link}" target="_blank" class="project-link"><i class="fab fa-github"></i> ${project.link.includes('github') ? 'GitHub' : 'Website'}</a>` : ''}
+                ${project.demoLink ? `<a href="${project.demoLink}" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>` : ''}
+               </div>`
             : '';
 
         projectCard.innerHTML = `
@@ -361,24 +391,50 @@ function loadProjects() {
                 <div class="project-skills">
                     ${project.skills.map(skill => `<span class="skill-badge">${skill}</span>`).join('')}
                 </div>
+                ${linksHTML}
                 ${mediaButtonHTML}
             </div>
         `;
 
         container.appendChild(projectCard);
     });
+
+    // Add or remove "Show More" button
+    let showMoreBtn = document.getElementById('showMoreProjectsBtn');
+
+    if (!showAll && projectsData.length > 3) {
+        if (!showMoreBtn) {
+            showMoreBtn = document.createElement('button');
+            showMoreBtn.id = 'showMoreProjectsBtn';
+            showMoreBtn.className = 'show-more-btn';
+            showMoreBtn.innerHTML = '<i class="fas fa-chevron-down"></i> Show More Projects';
+            showMoreBtn.onclick = () => {
+                showingAllProjects = true;
+                loadProjects(true);
+            };
+            container.parentElement.appendChild(showMoreBtn);
+        }
+    } else if (showMoreBtn) {
+        showMoreBtn.remove();
+    }
 }
 
 // Load Awards
-function loadAwards() {
-    const container = document.getElementById('awardsContainer');
+let showingAllAwards = false;
 
-    awardsData.forEach((award, index) => {
+function loadAwards(showAll = false) {
+    const container = document.getElementById('awardsContainer');
+    container.innerHTML = ''; // Clear existing awards
+
+    const awardsToShow = showAll ? awardsData : awardsData.slice(0, 3);
+
+    awardsToShow.forEach((award, index) => {
+        const actualIndex = showAll ? index : index; // For media gallery reference
         const awardItem = document.createElement('div');
         awardItem.className = 'award-item';
 
         const mediaButtonHTML = award.media && award.media.length > 0
-            ? `<button class="view-media-btn" onclick="openMediaGallery(${index}, 'award')">
+            ? `<button class="view-media-btn" onclick="openMediaGallery(${showAll ? index : awardsData.findIndex(a => a.title === award.title)}, 'award')">
                 <i class="fas fa-images"></i> View Photos (${award.media.length})
                </button>`
             : '';
@@ -398,6 +454,25 @@ function loadAwards() {
 
         container.appendChild(awardItem);
     });
+
+    // Add or remove "Show More" button
+    let showMoreBtn = document.getElementById('showMoreAwardsBtn');
+    
+    if (!showAll && awardsData.length > 3) {
+        if (!showMoreBtn) {
+            showMoreBtn = document.createElement('button');
+            showMoreBtn.id = 'showMoreAwardsBtn';
+            showMoreBtn.className = 'show-more-btn';
+            showMoreBtn.innerHTML = '<i class="fas fa-chevron-down"></i> Show More Awards';
+            showMoreBtn.onclick = () => {
+                showingAllAwards = true;
+                loadAwards(true);
+            };
+            container.parentElement.appendChild(showMoreBtn);
+        }
+    } else if (showMoreBtn) {
+        showMoreBtn.remove();
+    }
 }
 
 // Media Gallery Functions
