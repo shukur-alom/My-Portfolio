@@ -1,7 +1,7 @@
 Make a modern portfolio website for me 
 
-this is myy project "Projects"
-this is my Honors & awards  "Honors & awards"
+this is myy project "Projects" make project sort using date 
+this is my Honors & awards  "Honors & awards" make award sort using date 
 
 this is my cv "Shukur alam cv.pdf"
 
