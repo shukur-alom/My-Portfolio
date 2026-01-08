@@ -16,11 +16,23 @@ document.querySelectorAll('.nav-menu a').forEach(link => {
 // Projects Data (Sorted by Date - Most Recent First)
 const projectsData = [
     {
+        title: "Nector Smart Switch",
+        date: "2025",
+        description: "Smart IoT-enabled electrical switch for remote power control via mobile and web apps with real-time monitoring and automation.",
+        skills: ["IoT", "Embedded Systems", "ESP32", "Circuit Design", "Cloud Connectivity", "REST APIs"],
+        media: [
+            { type: "image", src: "Projects/0 Nector Smart Switch/Media/Nector Final.png" },
+            { type: "image", src: "Projects/0 Nector Smart Switch/Media/Nector Final (1).png" },
+            { type: "image", src: "Projects/0 Nector Smart Switch/Media/Nector Final (2).png" }
+        ]
+    },
+    {
         title: "Pico – Interactive OLED Desk Companion",
         date: "Sep 2025 - Dec 2025",
         description: "Interactive desk companion built with ESP32-C3 and 1.3 inch SH1106 OLED display with touch gestures, animations, and Pomodoro timer.",
         skills: ["Embedded Systems", "Arduino", "ESP32-C3", "C/C++", "OLED Display", "Touch Sensor"],
         media: [
+            { type: "image", src: "Projects/1 Pico/Media/IMG_1649.jpg" },
             { type: "image", src: "Projects/1 Pico/Media/IMG-20251216-WA0014.jpg" },
             { type: "video", src: "Projects/1 Pico/Media/VID-20251209-WA0029.mp4" }
         ]
@@ -30,7 +42,11 @@ const projectsData = [
         date: "Jun 2025 - Aug 2025",
         description: "ESP32-based bipedal robot with Bluetooth control, autonomous behavior, ultrasonic sensors, and predefined dance routines.",
         skills: ["ESP32", "Robotics", "BLE", "Embedded Systems", "Sensor Integration", "C++"],
-        media: []
+        media: [
+            { type: "image", src: "Projects/3 OTTO DIY Robot/Media/WhatsApp Image 2026-01-05 at 11.12.16 PM.jpeg" },
+            { type: "image", src: "Projects/3 OTTO DIY Robot/Media/FAouT_eXIAIrX_I.jpg" },
+            { type: "image", src: "Projects/3 OTTO DIY Robot/Media/24_b92a2667-4750-407b-9b63-ece562e02c1e_800x.webp" }
+        ]
     },
     {
         title: "ENVIROGUARD AI",
@@ -47,14 +63,22 @@ const projectsData = [
         date: "Nov 2024 - Jan 2025",
         description: "Innovative solution to monitor heart rate and oxygen levels using IoT device and AI module with mobile app integration.",
         skills: ["AIoT", "AI", "IoT", "Machine Learning", "Mobile Apps", "API Development"],
-        media: []
+        media: [
+            { type: "image", src: "Projects/5  CardioCare-AI/Media/CardioCareAi (1)_page-0008 (1).jpg" },
+            { type: "image", src: "Projects/5  CardioCare-AI/Media/CardioCareAi (1)_page-0009 (1).jpg" },
+            { type: "image", src: "Projects/5  CardioCare-AI/Media/CardioCareAi (1)_page-0010 (1).jpg" }
+        ]
     },
     {
         title: "BUSTRAX VISION",
         date: "Sep 2024 - Nov 2024",
         description: "All-encompassing transportation management solution integrating IoT devices with web and mobile apps for real-time vehicle tracking.",
         skills: ["IoT", "Web App", "Mobile Apps", "MQTT", "GPS", "Python", "C++", "ESP32", "Flutter"],
-        media: []
+        media: [
+            { type: "image", src: "Projects/7 BUSTRAX VISION/Media/CODE 8_page-0007.jpg" },
+            { type: "image", src: "Projects/7 BUSTRAX VISION/Media/CODE 8_page-0008.jpg" },
+            { type: "image", src: "Projects/7 BUSTRAX VISION/Media/IMG20241122213613.jpg" }
+        ]
     },
     {
         title: "Road Defect Detection Using AIoT",
@@ -71,63 +95,51 @@ const projectsData = [
         date: "Nov 2023 - Jan 2024",
         description: "Custom object detection system to automatically monitor parking spaces via video feeds with real-time vehicle detection.",
         skills: ["Computer Vision", "Python", "OpenCV", "AI", "TensorFlow"],
-        media: []
+        media: [
+            { type: "image", src: "Projects/8  Parking Space Monitoring with Custom Object Detection/Media/system view (1).png" },
+            { type: "video", src: "Projects/8  Parking Space Monitoring with Custom Object Detection/Media/SnapSave_App_2226792214379847_1080p.mp4" }
+        ]
     },
     {
         title: "Real-Time Vehicle Access Control",
         date: "Oct 2023 - Nov 2023",
         description: "Real-time car number plate recognition system for entry/exit management using computer vision and data analytics.",
         skills: ["Computer Vision", "Python", "AI", "YOLO"],
-        media: []
+        media: [
+            { type: "video", src: "Projects/12  Real-Time Vehicle Access Control System/Media/snapsave-app_2140753189650417_hd.mp4" }
+        ]
     },
     {
         title: "Rice Disease Detection by IoT",
         date: "Jun 2023 - Jul 2023",
         description: "Rice disease detection using ESP32 Cam and YOLOv5 with LCD display, SMS notifications, and mobile app alerts via MQTT.",
         skills: ["Python", "IoT", "Computer Vision", "AI", "ESP32"],
-        media: []
+        media: [
+            { type: "image", src: "Projects/9 Rice disease by IoT Device/Media/20230709_004608.jpg" }
+        ]
     },
     {
         title: "Enviro - Smart Dustbin",
         date: "Jun 2022",
         description: "Revolutionary smart dustbin with real-time fill level monitoring, GPS tracking, and automatic alerts for waste management.",
         skills: ["Sensors", "IoT", "GPS"],
-        media: []
+        media: [
+            { type: "video", src: "Projects/10  Enviro/Media/snapsave-app_1922761001449638_hd.mp4" }
+        ]
     },
     {
         title: "Leaf Disease Detection System",
         date: "Oct 2021",
         description: "AI-powered plant health analysis project using computer vision and Llama Vision models for disease detection and treatment recommendations.",
         skills: ["Python", "Computer Vision", "Deep Learning", "AI"],
-        media: []
-    },
-    {
-        title: "Nector Smart Switch",
-        date: "2025",
-        description: "Smart IoT-enabled electrical switch for remote power control via mobile and web apps with real-time monitoring and automation.",
-        skills: ["IoT", "Embedded Systems", "ESP32", "Circuit Design", "Cloud Connectivity", "REST APIs"],
         media: [
-            { type: "image", src: "Projects/0 Nector Smart Switch/Media/Nector Final.png" },
-            { type: "image", src: "Projects/0 Nector Smart Switch/Media/Nector Final (1).png" },
-            { type: "image", src: "Projects/0 Nector Smart Switch/Media/Nector Final (2).png" }
+            { type: "image", src: "Projects/2 Leaf Disease Detection System/Media/video (1).gif" }
         ]
     },
 ];
 
-// Awards Data (Sorted by Date - Most Recent First)
+// Awards Data (Sorted by Folder Number 1-18)
 const awardsData = [
-    {
-        title: "Gold Medalist – Innovation World Cup 2026",
-        issuer: "Innovation World Cup",
-        date: "Nov 2025",
-        description: "Received the Gold Medal in the Technology Category and recognized for Regional Innovation Excellence, honoring groundbreaking contributions by Team NECTOR.",
-        associated: "Nector",
-        media: [
-            { type: "image", src: "Honors & awards/2/Media/1762540852935.jfif" },
-            { type: "image", src: "Honors & awards/2/Media/1762540890796.jfif" },
-            { type: "image", src: "Honors & awards/2/Media/1762540918439.jfif" }
-        ]
-    },
     {
         title: "Champion — Patent & Idea Competition 2025",
         issuer: "Daffodil International University (DIU)",
@@ -138,6 +150,18 @@ const awardsData = [
             { type: "image", src: "Honors & awards/1/Media/1764318649398.jfif" },
             { type: "image", src: "Honors & awards/1/Media/1764318650100.jfif" },
             { type: "image", src: "Honors & awards/1/Media/1764318651278.jfif" }
+        ]
+    },
+    {
+        title: "Gold Medalist – Innovation World Cup 2026",
+        issuer: "Innovation World Cup",
+        date: "Nov 2025",
+        description: "Received the Gold Medal in the Technology Category and recognized for Regional Innovation Excellence, honoring groundbreaking contributions by Team NECTOR.",
+        associated: "Nector",
+        media: [
+            { type: "image", src: "Honors & awards/2/Media/1762540852935.jfif" },
+            { type: "image", src: "Honors & awards/2/Media/1762540890796.jfif" },
+            { type: "image", src: "Honors & awards/2/Media/1762540918439.jfif" }
         ]
     },
     {
@@ -311,13 +335,18 @@ function loadProjects() {
         const projectCard = document.createElement('div');
         projectCard.className = 'project-card';
 
-        const imageHTML = project.media && project.media.length > 0 && project.media[0].type === 'image'
-            ? `<img src="${project.media[0].src}" alt="${project.title}">`
+        // Find first image in media array for thumbnail
+        const firstImage = project.media && project.media.length > 0 
+            ? project.media.find(item => item.type === 'image')
+            : null;
+
+        const imageHTML = firstImage
+            ? `<img src="${firstImage.src}" alt="${project.title}">`
             : `<i class="fas fa-laptop-code"></i>`;
 
         const mediaButtonHTML = project.media && project.media.length > 0
             ? `<button class="view-media-btn" onclick="openMediaGallery(${index}, 'project')">
-                <i class="fas fa-images"></i> View Media (${project.media.length})
+                <i class="fas fa-${project.media.some(m => m.type === 'video') ? 'photo-video' : 'images'}"></i> View Media (${project.media.length})
                </button>`
             : '';
 
@@ -356,7 +385,7 @@ function loadAwards() {
 
         awardItem.innerHTML = `
             <div class="award-date">
-                <i class="fas fa-calendar-alt"></i> &nbsp; ${award.date}
+                <i class="fas fa-trophy"></i> &nbsp; Award #${index + 1}
             </div>
             <div class="award-content">
                 <h3 class="award-title">${award.title}</h3>
