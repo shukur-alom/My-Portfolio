@@ -1,0 +1,9 @@
+
+Rice disease by IoT Device
+Rice disease by IoT Device
+Jun 2023 - Jul 2023Jun 2023 - Jul 2023
+This project aims to detect rice diseases using the ESP32 Cam, perform disease classification using
+YOLOv5 in Python, display the results on a 16x2 LCD display, send SMS notifications to the farmer,
+and provide real-time notifications through a mobile app. MQTT protocol is used for IoT data transfer.
+This project aims to detect rice diseases using the ESP32 Cam, perform disease classification using YOLOv5 in Python, display the results on a 16x2 LCD display, send SMS notifications to the farmer, and provide real-time notifications through a mobile app. MQTT protocol is used for IoT data transfer.
+Skills: Python Programming · Internet of Things (IoT) · Computer Vision · Artificial Intelligence (AI) · ESP32 Microcontrollers
