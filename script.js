@@ -130,7 +130,7 @@ const projectsData = [
         description: "IoT-based weather monitoring system with AI prediction using ESP32, multiple gas sensors (MQ-2, MQ-7, MQ135), and DHT22. Uses linear regression for data prediction with MQTT protocol.",
         skills: ["Sensors", "IoT", "AI", "ESP32", "MQTT", "Machine Learning", "AIoT"],
         media: [
-            { type: "image", src: "Projects/11  weather.AI/Media/noaa-Led9c1SSNFo-unsplash.jpg" },
+            { type: "image", src: "Projects/11  weather.AI/Media/wolfgang-hasselmann-bR_-gllg7Bs-unsplash.jpg" },
             { type: "video", src: "Projects/11  weather.AI/Media/Video Project.mp4" }
         ]
     },
