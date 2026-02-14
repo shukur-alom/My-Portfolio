@@ -1386,7 +1386,9 @@ justify-content: center;
         left: -30px;
     }
 
-    .line-1, .line-2, .line-3 {
+    .line-1,
+    .line-2,
+    .line-3 {
         height: 100px;
     }
 
