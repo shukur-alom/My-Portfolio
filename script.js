@@ -157,8 +157,22 @@ const projectsData = [
     },
 ];
 
-// Awards Data (Sorted by Folder Number 1-19)
+// Awards Data (Sorted by Folder Number 1-20)
 const awardsData = [
+    {
+        title: "1st Runner-Up | Daffodil Hult Prize",
+        issuer: "Daffodil International University",
+        date: "Feb 2026",
+        description: "Proud to share that NECTOR secured 1st Runner-Up at the Hult Prize – Daffodil round, competing among 100+ teams. Our solution addresses SDG 6, 7, 11 & 12 — focusing on clean water, clean energy, sustainable cities, and responsible consumption.",
+        associated: "Nector",
+        media: [
+            { type: "image", src: "Honors & awards/1/Media/1.png" },
+            { type: "image", src: "Honors & awards/1/Media/2.png" },
+            { type: "image", src: "Honors & awards/1/Media/3.png" },
+            { type: "image", src: "Honors & awards/1/Media/4.png" },
+            { type: "image", src: "Honors & awards/1/Media/5.png" }
+        ]
+    },
     {
         title: "2nd Runner-Up - Poster Presentation at Beyond the Classroom",
         issuer: "Dhaka University",
@@ -166,9 +180,9 @@ const awardsData = [
         description: "Out of 60 competing teams nationwide, Nector proudly secured 2nd Runner-Up in the Poster Presentation at Beyond the Classroom: National Science & Creative Carnival 2026.",
         associated: "Nector",
         media: [
-            { type: "image", src: "Honors & awards/1/Media/IMG_3359.jpg" },
-            { type: "image", src: "Honors & awards/1/Media/IMG_3376.jpg" },
-            { type: "image", src: "Honors & awards/1/Media/IMG_3387.jpg" }
+            { type: "image", src: "Honors & awards/2/Media/IMG_3359.jpg" },
+            { type: "image", src: "Honors & awards/2/Media/IMG_3376.jpg" },
+            { type: "image", src: "Honors & awards/2/Media/IMG_3387.jpg" }
         ]
     },
     {
@@ -178,9 +192,9 @@ const awardsData = [
         description: "Awarded to Nector for innovation in IoT automation, recognizing our work in developing practical and scalable solutions for homes, agriculture, and industry across Bangladesh.",
         associated: "Nector",
         media: [
-            { type: "image", src: "Honors & awards/2/Media/1764318649398.png" },
-            { type: "image", src: "Honors & awards/2/Media/1764318650100.png" },
-            { type: "image", src: "Honors & awards/2/Media/1764318651278.png" }
+            { type: "image", src: "Honors & awards/3/Media/1764318649398.png" },
+            { type: "image", src: "Honors & awards/3/Media/1764318650100.png" },
+            { type: "image", src: "Honors & awards/3/Media/1764318651278.png" }
         ]
     },
     {
@@ -190,9 +204,9 @@ const awardsData = [
         description: "Received the Gold Medal in the Technology Category and recognized for Regional Innovation Excellence at the Innovation World Cup 2026, honoring groundbreaking contributions by Team NECTOR.",
         associated: "Nector",
         media: [
-            { type: "image", src: "Honors & awards/3/Media/1762540852935.png" },
-            { type: "image", src: "Honors & awards/3/Media/1762540890796.png" },
-            { type: "image", src: "Honors & awards/3/Media/1762540918439.png" }
+            { type: "image", src: "Honors & awards/4/Media/1762540852935.png" },
+            { type: "image", src: "Honors & awards/4/Media/1762540890796.png" },
+            { type: "image", src: "Honors & awards/4/Media/1762540918439.png" }
         ]
     },
     {
@@ -201,8 +215,8 @@ const awardsData = [
         date: "Nov 2024",
         description: "Achieved 2nd Runner-Up in the prestigious DIU Project Showcasing event, presenting an innovative project highlighting integration of advanced technology and practical problem-solving.",
         media: [
-            { type: "image", src: "Honors & awards/4/Media/1732721120585.png" },
-            { type: "image", src: "Honors & awards/4/Media/1733771051339.png" }
+            { type: "image", src: "Honors & awards/5/Media/1732721120585.png" },
+            { type: "image", src: "Honors & awards/5/Media/1733771051339.png" }
         ]
     },
     {
@@ -211,8 +225,8 @@ const awardsData = [
         date: "May 2024",
         description: "National Data Science and AI Start-Up Bootcamp organized by A2i. Team HydroFam held 2nd place in the Idea Contest segment.",
         media: [
-            { type: "image", src: "Honors & awards/5/Media/1716360399837.png" },
-            { type: "image", src: "Honors & awards/5/Media/1716360434814.png" }
+            { type: "image", src: "Honors & awards/6/Media/1716360399837.png" },
+            { type: "image", src: "Honors & awards/6/Media/1716360434814.png" }
         ]
     },
     {
@@ -222,7 +236,7 @@ const awardsData = [
         description: "Showcased project at annual Daffodil Artificial Intelligence Celebration. Received Appreciation Certificate for demonstrated excellence in AI work.",
         associated: "DIU Data Science Club",
         media: [
-            { type: "image", src: "Honors & awards/6/Media/1705764184274.png" }
+            { type: "image", src: "Honors & awards/7/Media/1705764184274.png" }
         ]
     },
     {
@@ -231,7 +245,7 @@ const awardsData = [
         date: "Nov 2023",
         description: "Secured 4th place in the Datathon Contest, showcasing skills in data analysis, innovation, and problem-solving.",
         media: [
-            { type: "image", src: "Honors & awards/7/Media/1705763688457.png" }
+            { type: "image", src: "Honors & awards/8/Media/1705763688457.png" }
         ]
     },
     {
@@ -240,7 +254,7 @@ const awardsData = [
         date: "Aug 2023",
         description: "Participated in Mindsparks 2023, a prestigious competition focused on IT and robotics, demonstrating skills and exploring innovative ideas.",
         media: [
-            { type: "image", src: "Honors & awards/8/Media/1705681627542.png" }
+            { type: "image", src: "Honors & awards/9/Media/1705681627542.png" }
         ]
     },
     {
@@ -249,8 +263,8 @@ const awardsData = [
         date: "Jun 2023",
         description: "Secured second place at the prestigious 44th Science Fair in Chandpur, earning recognition for exceptional scientific innovation and excellence.",
         media: [
-            { type: "image", src: "Honors & awards/9/Media/1705672585252.png" },
-            { type: "image", src: "Honors & awards/9/Media/1705677007646.png" }
+            { type: "image", src: "Honors & awards/10/Media/1705672585252.png" },
+            { type: "image", src: "Honors & awards/10/Media/1705677007646.png" }
         ]
     },
     {
@@ -259,7 +273,7 @@ const awardsData = [
         date: "Feb 2023",
         description: "Secured first position in the 'Show Your Project' Contest organized by Phitron, recognized for innovation and excellence.",
         media: [
-            { type: "image", src: "Honors & awards/10/Media/1705677094707.png" }
+            { type: "image", src: "Honors & awards/11/Media/1705677094707.png" }
         ]
     },
     {
@@ -269,8 +283,8 @@ const awardsData = [
         description: "Secured second position at the Digital Innovation Fair in Chandpur, recognized for valuable contributions to the digital landscape.",
         associated: "Hajigonj Degree College",
         media: [
-            { type: "image", src: "Honors & awards/11/Media/1705677241564.png" },
-            { type: "image", src: "Honors & awards/11/Media/1705677337757.png" }
+            { type: "image", src: "Honors & awards/12/Media/1705677241564.png" },
+            { type: "image", src: "Honors & awards/12/Media/1705677337757.png" }
         ]
     },
     {
@@ -280,8 +294,8 @@ const awardsData = [
         description: "Secured first position at Hajiganj Upazila Science Fair, demonstrating exceptional scientific acumen and innovative capabilities.",
         associated: "Hajigonj Degree College",
         media: [
-            { type: "image", src: "Honors & awards/12/Media/1697730019642.png" },
-            { type: "image", src: "Honors & awards/12/Media/1697730041311.png" }
+            { type: "image", src: "Honors & awards/13/Media/1697730019642.png" },
+            { type: "image", src: "Honors & awards/13/Media/1697730041311.png" }
         ]
     },
     {
@@ -291,7 +305,7 @@ const awardsData = [
         description: "Received Honor Award from Principal of HDC in acknowledgment of exceptional contributions and outstanding work in Robotics.",
         associated: "Hajigonj Degree College",
         media: [
-            { type: "image", src: "Honors & awards/13/Media/1697729198208.png" }
+            { type: "image", src: "Honors & awards/14/Media/1697729198208.png" }
         ]
     },
     {
@@ -301,8 +315,8 @@ const awardsData = [
         description: "Attained second position at the 43rd Science Fair held in Chandpur, receiving certificate and crest from Deputy Commissioner.",
         associated: "Hajigonj Degree College",
         media: [
-            { type: "image", src: "Honors & awards/14/Media/1697729363597.png" },
-            { type: "image", src: "Honors & awards/14/Media/1705677719523.png" }
+            { type: "image", src: "Honors & awards/15/Media/1697729363597.png" },
+            { type: "image", src: "Honors & awards/15/Media/1705677719523.png" }
         ]
     },
     {
@@ -312,8 +326,8 @@ const awardsData = [
         description: "Awarded second position at the 43rd Science Fair hosted at Hajoganj Model College, acknowledged for outstanding performance.",
         associated: "Hajigonj Degree College",
         media: [
-            { type: "image", src: "Honors & awards/15/Media/1697728020822.png" },
-            { type: "image", src: "Honors & awards/15/Media/1705678081866.png" }
+            { type: "image", src: "Honors & awards/16/Media/1697728020822.png" },
+            { type: "image", src: "Honors & awards/16/Media/1705678081866.png" }
         ]
     },
     {
@@ -323,7 +337,7 @@ const awardsData = [
         description: "Awarded Joining Certificate for participation in the 40th National Science Fair held in Dhaka, signifying engagement at national level.",
         associated: "Al kawsar school Hajigonj",
         media: [
-            { type: "image", src: "Honors & awards/16/Media/1705680421965.png" }
+            { type: "image", src: "Honors & awards/17/Media/1705680421965.png" }
         ]
     },
     {
@@ -333,7 +347,7 @@ const awardsData = [
         description: "Secured top position at the 40th Science Fair in Chandpur, acknowledged for outstanding dedication to scientific excellence.",
         associated: "Al kawsar school Hajigonj",
         media: [
-            { type: "image", src: "Honors & awards/17/Media/1697725819206.png" }
+            { type: "image", src: "Honors & awards/18/Media/1697725819206.png" }
         ]
     },
     {
@@ -343,7 +357,7 @@ const awardsData = [
         description: "Attained second position at the 40th Science Fair in Hajiganj, showcasing notable achievements and dedication to scientific exploration.",
         associated: "Al kawsar school Hajigonj",
         media: [
-            { type: "image", src: "Honors & awards/18/Media/1697725586497.png" }
+            { type: "image", src: "Honors & awards/19/Media/1697725586497.png" }
         ]
     },
     {
@@ -353,7 +367,7 @@ const awardsData = [
         description: "Chosen to represent Chandpur region at the Math Festival, underscoring mathematical prowess and problem-solving aptitude.",
         associated: "Al kawsar school Hajigonj",
         media: [
-            { type: "image", src: "Honors & awards/19/Media/1697725586497.png" }
+            { type: "image", src: "Honors & awards/20/Media/1697725586497.png" }
         ]
     }
 ];
