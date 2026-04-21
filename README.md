@@ -42,7 +42,7 @@ my portfolio/
 │   ├── 10 Enviro/
 │   └── 12 Real-Time Vehicle Access Control System/
 └── Honors & awards/   # Awards and recognitions
-    ├── 1-20/          # Individual award entries
+    ├── 1-21/          # Individual award entries
     └── ...
 ```
 
