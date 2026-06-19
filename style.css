@@ -140,6 +140,18 @@ body {
     margin-bottom: 0.5rem;
 }
 
+.hero-role a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.hero-role a:hover {
+    color: var(--primary-color);
+    border-bottom-color: var(--primary-color);
+}
+
 .hero-subtitle {
     font-size: 1.3rem;
     font-weight: 400;
@@ -441,6 +453,18 @@ section {
     font-size: 1.3rem;
     color: var(--primary-color);
     font-weight: 600;
+}
+
+.experience-header h4 a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.experience-header h4 a:hover {
+    color: var(--accent-color);
+    border-bottom-color: var(--accent-color);
 }
 
 .experience-date {
