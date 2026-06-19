@@ -13,7 +13,6 @@ document.querySelectorAll('.nav-menu a').forEach(link => {
     });
 });
 
-
 // Projects Data (Sorted by Date - Most Recent First)
 const projectsData = [
     {
